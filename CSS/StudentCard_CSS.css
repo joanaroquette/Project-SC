@@ -1,0 +1,31 @@
+
+/* take out underlined links */
+a{text-decoration: none;}
+
+/* nav */
+.border {
+    border: 4px solid black;}
+header{
+    margin:25px 0px;
+    height: 100vh;
+    width: 100%;}
+
+
+/* header footer */
+.bg {
+    background-color: #05ffb0;}
+    
+
+/* leftblock */
+.leftblock {
+    width: 50%;
+    border: 4px solid black;}
+
+
+/* top menu */
+ul.topmenu li {
+    display: inline-block;
+    margin: 0px 10px;
+    color: #52C3FB;
+    font-size: 15px;
+    }
