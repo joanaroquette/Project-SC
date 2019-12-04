@@ -1,31 +1,101 @@
 
+body, html {
+    margin: 0;
+    padding:0;}
+
 /* take out underlined links */
 a{text-decoration: none;}
 
+/* fonts */
+h1{font-family: 'Rubik', sans-serif;}
+p{font-family: 'Rubik-Light', sans-serif;}
+li{font-family: 'Rubik-Light', sans-serif;}
+button{font-family: 'Rubik-Bold', sans-serif;}
+h2{font-family: 'Rubik-Bold', sans-serif; color:  #FF5633; font-size: 15px;}
+
 /* nav */
-.border {
-    border: 4px solid black;}
-header{
-    margin:25px 0px;
-    height: 100vh;
-    width: 100%;}
-
-
-/* header footer */
-.bg {
-    background-color: #05ffb0;}
-    
-
-/* leftblock */
-.leftblock {
-    width: 50%;
-    border: 4px solid black;}
-
+.nav{
+    height: 80px;
+    margin-top: 30px}
 
 /* top menu */
+nav {
+    display: flex;
+    justify-content: space-between;}
+
+ul.topmenu{width: 25%}
+
 ul.topmenu li {
     display: inline-block;
     margin: 0px 10px;
-    color: #52C3FB;
-    font-size: 15px;
+    color: black;
+    font-size: 12px;}
+.topmenu{
+    width: 30%;}
+    /* float: right; */
+    /* display: flex;
+    justify-content: flex-end; */
+
+#logoname{
+    display: inline-flex;
+    margin-left: 30px;
+    font-size: 9px;
+    margin-top: 7px}
+
+
+/* header */
+header{
+    margin:0px 0px;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;}
+
+
+.bgimage{
+    background: url(/Images/header-image1.jpeg) no-repeat;
+    background-size: cover;}
+
+.profilepic1{
+    max-width: 100%;
+    margin-top: 50px;
+    padding-left: 0px;}
+    
+
+    /* leftblock */
+    .leftblock {
+        width: 35%;
+        padding: 60px 60px 60px 120px;}
+
+        .hello{
+        font-size: 27px;}
+
+        span{
+        font-size: 80px;}
+
+    .leftblock {
+        padding-top: 200px;}
+
+    .headerdesc{
+        width: 80%;
+        margin: 20px 0px 20px 0px;
     }
+
+   button{
+        background: #FF5633;
+        border-radius: 5px;
+        color: white;
+        padding: 12px;
+        width: 120px;
+        box-sizing: border-box;
+        font-size: 11px;}
+
+/* about me */
+#aboutmetitle{
+    font-size: 40px;
+    margin-left: 50%;}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;}
